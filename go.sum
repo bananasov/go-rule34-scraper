@@ -1,0 +1,4 @@
+github.com/bhall2001/fastjson v0.4.1 h1:tha68DOHzza6O5urR8/kwOhaC1HXlD0WYo5Hl3/fFnc=
+github.com/bhall2001/fastjson v0.4.1/go.mod h1:KbwMZYbRiLr5pRRcVQw+dErPuCiAo1Lyo8IaXVZgxOU=
+github.com/valyala/fastjson v1.6.3 h1:tAKFnnwmeMGPbwJ7IwxcTPCNr3uIzoIj3/Fh90ra4xc=
+github.com/valyala/fastjson v1.6.3/go.mod h1:CLCAqky6SMuOcxStkYQvblddUtoRxhYMGLrsQns1aXY=
