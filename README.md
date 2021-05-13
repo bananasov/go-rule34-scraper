@@ -17,6 +17,7 @@ Simple but efficient rule34 scraper using the r34.app API
 4. Run `go run main.go <domain> <limit> <tags>` to start downloading
     - domain can be anything from the supported domains above.
     - limit can be anything.
-    - tags is an array of images you want to scrape. Example: `nude sonic_the_hedgehog`
+    - tags is an array of images you want to scrape. 
+        - Example: `nude sonic_the_hedgehog`
 4 (optional). Run `go build main.go` to compile it into a executable 
 5. Wait till every image is downloaded.
