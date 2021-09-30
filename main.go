@@ -6,6 +6,7 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"strconv"
 	"strings"
 
 	"github.com/valyala/fastjson"
@@ -72,7 +73,11 @@ func DownloadFile(filepath string, url string) error {
 	}
 	defer out.Close()
 	_, err = io.Copy(out, resp.Body)
-	fmt.Println("Downloaded")
+
+	size, _ := strconv.Atoi(resp.Header.Get("Content-Length"))
+	s2 := strconv.Itoa(size)
+
+	fmt.Println("Downloaded url: " + url + " with length of " + s2 + " bytes")
 	return err
 }
 
